@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2ACDF70202A169C0086B117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ACDF6F202A169C0086B117 /* AppDelegate.swift */; };
+		C2ACDF72202A169C0086B117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ACDF71202A169C0086B117 /* ViewController.swift */; };
+		C2ACDF75202A169C0086B117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2ACDF73202A169C0086B117 /* Main.storyboard */; };
+		C2ACDF77202A169C0086B117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2ACDF76202A169C0086B117 /* Assets.xcassets */; };
+		C2ACDF7A202A169C0086B117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2ACDF78202A169C0086B117 /* LaunchScreen.storyboard */; };
+		C2ACDF85202A169C0086B117 /* AidATradeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ACDF84202A169C0086B117 /* AidATradeTests.swift */; };
+		C2ACDF90202A169C0086B117 /* AidATradeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ACDF8F202A169C0086B117 /* AidATradeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2ACDF81202A169C0086B117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2ACDF64202A169C0086B117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2ACDF6B202A169C0086B117;
+			remoteInfo = AidATrade;
+		};
+		C2ACDF8C202A169C0086B117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2ACDF64202A169C0086B117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2ACDF6B202A169C0086B117;
+			remoteInfo = AidATrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2ACDF6C202A169C0086B117 /* AidATrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AidATrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2ACDF6F202A169C0086B117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2ACDF71202A169C0086B117 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2ACDF74202A169C0086B117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2ACDF76202A169C0086B117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2ACDF79202A169C0086B117 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2ACDF7B202A169C0086B117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2ACDF80202A169C0086B117 /* AidATradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AidATradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2ACDF84202A169C0086B117 /* AidATradeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AidATradeTests.swift; sourceTree = "<group>"; };
+		C2ACDF86202A169C0086B117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2ACDF8B202A169C0086B117 /* AidATradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AidATradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2ACDF8F202A169C0086B117 /* AidATradeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AidATradeUITests.swift; sourceTree = "<group>"; };
+		C2ACDF91202A169C0086B117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2ACDF69202A169C0086B117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2ACDF7D202A169C0086B117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2ACDF88202A169C0086B117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2ACDF63202A169C0086B117 = {
+			isa = PBXGroup;
+			children = (
+				C2ACDF6E202A169C0086B117 /* AidATrade */,
+				C2ACDF83202A169C0086B117 /* AidATradeTests */,
+				C2ACDF8E202A169C0086B117 /* AidATradeUITests */,
+				C2ACDF6D202A169C0086B117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2ACDF6D202A169C0086B117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2ACDF6C202A169C0086B117 /* AidATrade.app */,
+				C2ACDF80202A169C0086B117 /* AidATradeTests.xctest */,
+				C2ACDF8B202A169C0086B117 /* AidATradeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2ACDF6E202A169C0086B117 /* AidATrade */ = {
+			isa = PBXGroup;
+			children = (
+				C2ACDF6F202A169C0086B117 /* AppDelegate.swift */,
+				C2ACDF71202A169C0086B117 /* ViewController.swift */,
+				C2ACDF73202A169C0086B117 /* Main.storyboard */,
+				C2ACDF76202A169C0086B117 /* Assets.xcassets */,
+				C2ACDF78202A169C0086B117 /* LaunchScreen.storyboard */,
+				C2ACDF7B202A169C0086B117 /* Info.plist */,
+			);
+			path = AidATrade;
+			sourceTree = "<group>";
+		};
+		C2ACDF83202A169C0086B117 /* AidATradeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2ACDF84202A169C0086B117 /* AidATradeTests.swift */,
+				C2ACDF86202A169C0086B117 /* Info.plist */,
+			);
+			path = AidATradeTests;
+			sourceTree = "<group>";
+		};
+		C2ACDF8E202A169C0086B117 /* AidATradeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2ACDF8F202A169C0086B117 /* AidATradeUITests.swift */,
+				C2ACDF91202A169C0086B117 /* Info.plist */,
+			);
+			path = AidATradeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2ACDF6B202A169C0086B117 /* AidATrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2ACDF94202A169C0086B117 /* Build configuration list for PBXNativeTarget "AidATrade" */;
+			buildPhases = (
+				C2ACDF68202A169C0086B117 /* Sources */,
+				C2ACDF69202A169C0086B117 /* Frameworks */,
+				C2ACDF6A202A169C0086B117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AidATrade;
+			productName = AidATrade;
+			productReference = C2ACDF6C202A169C0086B117 /* AidATrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2ACDF7F202A169C0086B117 /* AidATradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2ACDF97202A169C0086B117 /* Build configuration list for PBXNativeTarget "AidATradeTests" */;
+			buildPhases = (
+				C2ACDF7C202A169C0086B117 /* Sources */,
+				C2ACDF7D202A169C0086B117 /* Frameworks */,
+				C2ACDF7E202A169C0086B117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2ACDF82202A169C0086B117 /* PBXTargetDependency */,
+			);
+			name = AidATradeTests;
+			productName = AidATradeTests;
+			productReference = C2ACDF80202A169C0086B117 /* AidATradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2ACDF8A202A169C0086B117 /* AidATradeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2ACDF9A202A169C0086B117 /* Build configuration list for PBXNativeTarget "AidATradeUITests" */;
+			buildPhases = (
+				C2ACDF87202A169C0086B117 /* Sources */,
+				C2ACDF88202A169C0086B117 /* Frameworks */,
+				C2ACDF89202A169C0086B117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2ACDF8D202A169C0086B117 /* PBXTargetDependency */,
+			);
+			name = AidATradeUITests;
+			productName = AidATradeUITests;
+			productReference = C2ACDF8B202A169C0086B117 /* AidATradeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2ACDF64202A169C0086B117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Gaurav Rastogi";
+				TargetAttributes = {
+					C2ACDF6B202A169C0086B117 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C2ACDF7F202A169C0086B117 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2ACDF6B202A169C0086B117;
+					};
+					C2ACDF8A202A169C0086B117 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C2ACDF6B202A169C0086B117;
+					};
+				};
+			};
+			buildConfigurationList = C2ACDF67202A169C0086B117 /* Build configuration list for PBXProject "AidATrade" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2ACDF63202A169C0086B117;
+			productRefGroup = C2ACDF6D202A169C0086B117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2ACDF6B202A169C0086B117 /* AidATrade */,
+				C2ACDF7F202A169C0086B117 /* AidATradeTests */,
+				C2ACDF8A202A169C0086B117 /* AidATradeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2ACDF6A202A169C0086B117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ACDF7A202A169C0086B117 /* LaunchScreen.storyboard in Resources */,
+				C2ACDF77202A169C0086B117 /* Assets.xcassets in Resources */,
+				C2ACDF75202A169C0086B117 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2ACDF7E202A169C0086B117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2ACDF89202A169C0086B117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2ACDF68202A169C0086B117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ACDF72202A169C0086B117 /* ViewController.swift in Sources */,
+				C2ACDF70202A169C0086B117 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2ACDF7C202A169C0086B117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ACDF85202A169C0086B117 /* AidATradeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2ACDF87202A169C0086B117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2ACDF90202A169C0086B117 /* AidATradeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2ACDF82202A169C0086B117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2ACDF6B202A169C0086B117 /* AidATrade */;
+			targetProxy = C2ACDF81202A169C0086B117 /* PBXContainerItemProxy */;
+		};
+		C2ACDF8D202A169C0086B117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2ACDF6B202A169C0086B117 /* AidATrade */;
+			targetProxy = C2ACDF8C202A169C0086B117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2ACDF73202A169C0086B117 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2ACDF74202A169C0086B117 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2ACDF78202A169C0086B117 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2ACDF79202A169C0086B117 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2ACDF92202A169C0086B117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2ACDF93202A169C0086B117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2ACDF95202A169C0086B117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M37JW29G64;
+				INFOPLIST_FILE = AidATrade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.AidATrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C2ACDF96202A169C0086B117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M37JW29G64;
+				INFOPLIST_FILE = AidATrade/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.AidATrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C2ACDF98202A169C0086B117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M37JW29G64;
+				INFOPLIST_FILE = AidATradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.AidATradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AidATrade.app/AidATrade";
+			};
+			name = Debug;
+		};
+		C2ACDF99202A169C0086B117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M37JW29G64;
+				INFOPLIST_FILE = AidATradeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.AidATradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AidATrade.app/AidATrade";
+			};
+			name = Release;
+		};
+		C2ACDF9B202A169C0086B117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M37JW29G64;
+				INFOPLIST_FILE = AidATradeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.AidATradeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AidATrade;
+			};
+			name = Debug;
+		};
+		C2ACDF9C202A169C0086B117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M37JW29G64;
+				INFOPLIST_FILE = AidATradeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.AidATradeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AidATrade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2ACDF67202A169C0086B117 /* Build configuration list for PBXProject "AidATrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2ACDF92202A169C0086B117 /* Debug */,
+				C2ACDF93202A169C0086B117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2ACDF94202A169C0086B117 /* Build configuration list for PBXNativeTarget "AidATrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2ACDF95202A169C0086B117 /* Debug */,
+				C2ACDF96202A169C0086B117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2ACDF97202A169C0086B117 /* Build configuration list for PBXNativeTarget "AidATradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2ACDF98202A169C0086B117 /* Debug */,
+				C2ACDF99202A169C0086B117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2ACDF9A202A169C0086B117 /* Build configuration list for PBXNativeTarget "AidATradeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2ACDF9B202A169C0086B117 /* Debug */,
+				C2ACDF9C202A169C0086B117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2ACDF64202A169C0086B117 /* Project object */;
+}
