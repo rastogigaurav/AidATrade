@@ -1,0 +1,6 @@
+framework module Pods_AidATradeTests {
+  umbrella header "Pods-AidATradeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

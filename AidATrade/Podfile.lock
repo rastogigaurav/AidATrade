@@ -1,0 +1,30 @@
+PODS:
+  - KeyboardAvoidingView (2.0.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - RxSwiftExt (3.1.0):
+    - RxSwiftExt/Core (= 3.1.0)
+  - RxSwiftExt/Core (3.1.0):
+    - RxSwift (~> 4.0)
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+  - SQLite.swift/standard (0.11.4)
+
+DEPENDENCIES:
+  - KeyboardAvoidingView (~> 2.0)
+  - RxCocoa
+  - RxSwift
+  - RxSwiftExt
+  - SQLite.swift (~> 0.11.4)
+
+SPEC CHECKSUMS:
+  KeyboardAvoidingView: a47018b49653d08649baa35f694a2cac12a1e42d
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  RxSwiftExt: a9b9c8e94be009146707f9fcb16eaf3cc1f3910c
+  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
+
+PODFILE CHECKSUM: 1d9f939df568364fe37684e6d5caae658ab07746
+
+COCOAPODS: 1.4.0
