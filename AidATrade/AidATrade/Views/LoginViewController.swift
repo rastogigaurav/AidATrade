@@ -44,7 +44,7 @@ class LoginViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         //Setting value for width constraint here and all subviews has been layout by now.
         if screenWidth == 320{
-            self.inputFeidlsContainerWidthConstraint.constant = 266.0
+            self.inputFeidlsContainerWidthConstraint.constant = 286.0
         }
         else{
             self.inputFeidlsContainerWidthConstraint.constant = 220.0
@@ -87,7 +87,7 @@ class LoginViewController: UIViewController {
         self.emailTextField.rx
             .controlEvent(.editingDidBegin)
             .bind { [unowned self] in
-                self.emailTextField.setPlaceholderColor(UIColor(rgb: 0xCCF2FF))
+                self.emailTextField.setPlaceholderColor(UIColor(rgb: 0xCCF2FF,alpha: 0.6))
             }
             .disposed(by: disposeBag)
         
@@ -108,7 +108,7 @@ class LoginViewController: UIViewController {
         self.passwordTextField.rx
             .controlEvent(.editingDidBegin)
             .bind { [unowned self] in
-                self.passwordTextField.setPlaceholderColor(UIColor(rgb: 0xCCF2FF))
+                self.passwordTextField.setPlaceholderColor(UIColor(rgb: 0xCCF2FF,alpha: 0.6))
             }
             .disposed(by: disposeBag)
         
