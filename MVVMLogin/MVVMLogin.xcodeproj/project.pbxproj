@@ -126,9 +126,9 @@
 		C2ACDF63202A169C0086B117 = {
 			isa = PBXGroup;
 			children = (
-				C2ACDF6E202A169C0086B117 /* AidATrade */,
-				C2ACDF83202A169C0086B117 /* AidATradeTests */,
-				C2ACDF8E202A169C0086B117 /* AidATradeUITests */,
+				C2ACDF6E202A169C0086B117 /* MVVMLogin */,
+				C2ACDF83202A169C0086B117 /* MVVMLoginTests */,
+				C2ACDF8E202A169C0086B117 /* MVVMLoginUITests */,
 				C2ACDF6D202A169C0086B117 /* Products */,
 				C62A24E805A832E8D23A1273 /* Pods */,
 				CF57DD7E9A0A10FEFDD06484 /* Frameworks */,
@@ -145,7 +145,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2ACDF6E202A169C0086B117 /* AidATrade */ = {
+		C2ACDF6E202A169C0086B117 /* MVVMLogin */ = {
 			isa = PBXGroup;
 			children = (
 				C2ACDFC2202CD10F0086B117 /* General */,
@@ -160,10 +160,10 @@
 				C2ACDF78202A169C0086B117 /* LaunchScreen.storyboard */,
 				C2ACDF7B202A169C0086B117 /* Info.plist */,
 			);
-			path = AidATrade;
+			path = MVVMLogin;
 			sourceTree = "<group>";
 		};
-		C2ACDF83202A169C0086B117 /* AidATradeTests */ = {
+		C2ACDF83202A169C0086B117 /* MVVMLoginTests */ = {
 			isa = PBXGroup;
 			children = (
 				C2744930203B7F040085D2CC /* General */,
@@ -173,16 +173,16 @@
 				C2ACDFAC202A1A900086B117 /* ViewModels */,
 				C2ACDF86202A169C0086B117 /* Info.plist */,
 			);
-			path = AidATradeTests;
+			path = MVVMLoginTests;
 			sourceTree = "<group>";
 		};
-		C2ACDF8E202A169C0086B117 /* AidATradeUITests */ = {
+		C2ACDF8E202A169C0086B117 /* MVVMLoginUITests */ = {
 			isa = PBXGroup;
 			children = (
 				C2ACDF8F202A169C0086B117 /* AidATradeUITests.swift */,
 				C2ACDF91202A169C0086B117 /* Info.plist */,
 			);
-			path = AidATradeUITests;
+			path = MVVMLoginUITests;
 			sourceTree = "<group>";
 		};
 		C2ACDF9D202A18800086B117 /* Services */ = {
@@ -415,7 +415,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C2ACDF67202A169C0086B117 /* Build configuration list for PBXProject "AidATrade" */;
+			buildConfigurationList = C2ACDF67202A169C0086B117 /* Build configuration list for PBXProject "MVVMLogin" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -808,10 +808,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M37JW29G64;
-				INFOPLIST_FILE = AidATrade/Info.plist;
+				INFOPLIST_FILE = MVVMLogin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.AidATrade;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.MVVMLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -827,10 +827,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M37JW29G64;
-				INFOPLIST_FILE = AidATrade/Info.plist;
+				INFOPLIST_FILE = MVVMLogin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.AidATrade;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.MVVMLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -846,9 +846,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M37JW29G64;
-				INFOPLIST_FILE = AidATradeTests/Info.plist;
+				INFOPLIST_FILE = MVVMLoginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.AidATradeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.MVVMLoginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -864,9 +864,9 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M37JW29G64;
-				INFOPLIST_FILE = AidATradeTests/Info.plist;
+				INFOPLIST_FILE = MVVMLoginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.AidATradeTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.MVVMLoginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -881,9 +881,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M37JW29G64;
-				INFOPLIST_FILE = AidATradeUITests/Info.plist;
+				INFOPLIST_FILE = MVVMLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.AidATradeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.MVVMLoginUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -898,9 +898,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M37JW29G64;
-				INFOPLIST_FILE = AidATradeUITests/Info.plist;
+				INFOPLIST_FILE = MVVMLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.AidATradeUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.MVVMLoginUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -911,7 +911,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2ACDF67202A169C0086B117 /* Build configuration list for PBXProject "AidATrade" */ = {
+		C2ACDF67202A169C0086B117 /* Build configuration list for PBXProject "MVVMLogin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C2ACDF92202A169C0086B117 /* Debug */,
