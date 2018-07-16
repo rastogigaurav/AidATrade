@@ -27,7 +27,7 @@ class LoginViewController: UIViewController {
     }
     
     private let disposeBag = DisposeBag()
-    private var viewModel:LoginViewModelProtocol!
+    private var viewModel:LoginViewModel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
