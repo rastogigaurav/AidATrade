@@ -9,7 +9,7 @@
 import XCTest
 import RxSwift
 
-@testable import AidATrade
+@testable import MVVMLogin
 
 class LoginProviderTest: XCTestCase {
     

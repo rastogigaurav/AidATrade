@@ -1,14 +1,16 @@
 //
-//  AidATradeUITests.swift
-//  AidATradeUITests
+//  LoginUITest.swift
+//  MVVMLoginUITests
 //
-//  Created by Gaurav Rastogi on 2/6/18.
+//  Created by Gaurav Rastogi on 9/18/18.
 //  Copyright © 2018 Gaurav Rastogi. All rights reserved.
 //
 
 import XCTest
 
-class AidATradeUITests: XCTestCase {
+class LoginUITest: TestCase {
+    
+    var loginScreen : LoginScreen!
         
     override func setUp() {
         super.setUp()
@@ -21,6 +23,7 @@ class AidATradeUITests: XCTestCase {
         XCUIApplication().launch()
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        loginScreen = LoginScreen(app: app, testCase: self)
     }
     
     override func tearDown() {
@@ -28,9 +31,11 @@ class AidATradeUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testInvalidEmail() {        
+        loginScreen.typeEmail(email: "invalid@email")
+        loginScreen.typePassword(password: "ValidPassword@123")
+        loginScreen.loginButton.tap()
+        XCTAssertTrue(loginScreen.invalidEmailAlertExist)
     }
     
 }

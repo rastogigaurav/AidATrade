@@ -8,7 +8,7 @@
 
 import XCTest
 
-@testable import AidATrade
+@testable import MVVMLogin
 
 class UserTest: XCTestCase {
     

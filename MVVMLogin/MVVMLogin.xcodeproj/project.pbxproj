@@ -10,6 +10,10 @@
 		13A3F504889229D284CBF12B /* Pods_AidATrade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1F23F61D0F61742D6DEF36 /* Pods_AidATrade.framework */; };
 		5E842C536D8F6F626BF82955 /* Pods_AidATradeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CD679B3AF8406327954EFB /* Pods_AidATradeUITests.framework */; };
 		A0676969D65BA56ABF4F8E40 /* Pods_AidATradeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFF917CBE80F87EEDE185F6 /* Pods_AidATradeTests.framework */; };
+		C250EB552150B7630001F7E4 /* AppScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250EB542150B7630001F7E4 /* AppScreen.swift */; };
+		C250EB572150B7BC0001F7E4 /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250EB562150B7BC0001F7E4 /* TestCase.swift */; };
+		C250EB592150B8860001F7E4 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250EB582150B8860001F7E4 /* LoginScreen.swift */; };
+		C250EB5B2150B8D10001F7E4 /* LoginUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C250EB5A2150B8D10001F7E4 /* LoginUITest.swift */; };
 		C274491B2030C6500085D2CC /* UserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274491A2030C6500085D2CC /* UserTest.swift */; };
 		C2744929203AB3580085D2CC /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2744928203AB3580085D2CC /* UITextField+Extensions.swift */; };
 		C274492F203B3FBB0085D2CC /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C274492E203B3FBB0085D2CC /* String+Extensions.swift */; };
@@ -17,7 +21,6 @@
 		C2ACDF70202A169C0086B117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ACDF6F202A169C0086B117 /* AppDelegate.swift */; };
 		C2ACDF77202A169C0086B117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2ACDF76202A169C0086B117 /* Assets.xcassets */; };
 		C2ACDF7A202A169C0086B117 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2ACDF78202A169C0086B117 /* LaunchScreen.storyboard */; };
-		C2ACDF90202A169C0086B117 /* AidATradeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ACDF8F202A169C0086B117 /* AidATradeUITests.swift */; };
 		C2ACDFA8202A19810086B117 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2ACDFA7202A19810086B117 /* Login.storyboard */; };
 		C2ACDFB1202A374F0086B117 /* LoginRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ACDFB0202A374F0086B117 /* LoginRepositoryTest.swift */; };
 		C2ACDFB3202A3E1E0086B117 /* LoginRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2ACDFB2202A3E1E0086B117 /* LoginRepository.swift */; };
@@ -56,6 +59,10 @@
 		5D1F23F61D0F61742D6DEF36 /* Pods_AidATrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AidATrade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B57F968B8549882B2C86BDA /* Pods-AidATrade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AidATrade.release.xcconfig"; path = "Pods/Target Support Files/Pods-AidATrade/Pods-AidATrade.release.xcconfig"; sourceTree = "<group>"; };
 		A2441B2C23AD64BAB6BBE578 /* Pods-AidATrade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AidATrade.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AidATrade/Pods-AidATrade.debug.xcconfig"; sourceTree = "<group>"; };
+		C250EB542150B7630001F7E4 /* AppScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreen.swift; sourceTree = "<group>"; };
+		C250EB562150B7BC0001F7E4 /* TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
+		C250EB582150B8860001F7E4 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		C250EB5A2150B8D10001F7E4 /* LoginUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUITest.swift; sourceTree = "<group>"; };
 		C274491A2030C6500085D2CC /* UserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTest.swift; sourceTree = "<group>"; };
 		C2744928203AB3580085D2CC /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		C274492E203B3FBB0085D2CC /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
@@ -68,7 +75,6 @@
 		C2ACDF80202A169C0086B117 /* MVVMLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2ACDF86202A169C0086B117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2ACDF8B202A169C0086B117 /* MVVMLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2ACDF8F202A169C0086B117 /* AidATradeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AidATradeUITests.swift; sourceTree = "<group>"; };
 		C2ACDF91202A169C0086B117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2ACDFA7202A19810086B117 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		C2ACDFB0202A374F0086B117 /* LoginRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRepositoryTest.swift; sourceTree = "<group>"; };
@@ -115,6 +121,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C250EB512150B6680001F7E4 /* Robots */ = {
+			isa = PBXGroup;
+			children = (
+				C250EB542150B7630001F7E4 /* AppScreen.swift */,
+				C250EB582150B8860001F7E4 /* LoginScreen.swift */,
+			);
+			path = Robots;
+			sourceTree = "<group>";
+		};
+		C250EB522150B6680001F7E4 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C250EB562150B7BC0001F7E4 /* TestCase.swift */,
+				C250EB5A2150B8D10001F7E4 /* LoginUITest.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		C250EB532150B6680001F7E4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		C2744930203B7F040085D2CC /* General */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,7 +210,9 @@
 		C2ACDF8E202A169C0086B117 /* MVVMLoginUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C2ACDF8F202A169C0086B117 /* AidATradeUITests.swift */,
+				C250EB512150B6680001F7E4 /* Robots */,
+				C250EB522150B6680001F7E4 /* Tests */,
+				C250EB532150B6680001F7E4 /* Utility */,
 				C2ACDF91202A169C0086B117 /* Info.plist */,
 			);
 			path = MVVMLoginUITests;
@@ -401,16 +434,16 @@
 				TargetAttributes = {
 					C2ACDF6B202A169C0086B117 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					C2ACDF7F202A169C0086B117 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = C2ACDF6B202A169C0086B117;
 					};
 					C2ACDF8A202A169C0086B117 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						TestTargetID = C2ACDF6B202A169C0086B117;
 					};
 				};
@@ -662,7 +695,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2ACDF90202A169C0086B117 /* AidATradeUITests.swift in Sources */,
+				C250EB592150B8860001F7E4 /* LoginScreen.swift in Sources */,
+				C250EB552150B7630001F7E4 /* AppScreen.swift in Sources */,
+				C250EB5B2150B8D10001F7E4 /* LoginUITest.swift in Sources */,
+				C250EB572150B7BC0001F7E4 /* TestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -806,8 +842,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M37JW29G64;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMLogin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -825,8 +861,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M37JW29G64;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMLogin/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -844,15 +880,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M37JW29G64;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMLoginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.MVVMLoginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AidATrade.app/AidATrade";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMLogin.app/MVVMLogin";
 			};
 			name = Debug;
 		};
@@ -862,15 +899,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M37JW29G64;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMLoginTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.MVVMLoginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AidATrade.app/AidATrade";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMLogin.app/MVVMLogin";
 			};
 			name = Release;
 		};
@@ -879,15 +917,17 @@
 			baseConfigurationReference = 5B9765CA0FB2CECCB494A984 /* Pods-AidATradeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M37JW29G64;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.MVVMLoginUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AidATrade;
+				TEST_TARGET_NAME = MVVMLogin;
 			};
 			name = Debug;
 		};
@@ -896,15 +936,17 @@
 			baseConfigurationReference = D2A63B1E6C02AA089DFE62CC /* Pods-AidATradeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M37JW29G64;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMLoginUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rastogigaurav.MVVMLoginUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = AidATrade;
+				TEST_TARGET_NAME = MVVMLogin;
 			};
 			name = Release;
 		};
